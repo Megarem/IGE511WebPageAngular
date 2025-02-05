@@ -1,0 +1,23 @@
+.custom-shape-divider-bottom-1738773578 {
+    position: absolute;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 11; /* Doit être inférieur au z-index du footer */
+
+}
+
+.custom-shape-divider-bottom-1738773578 svg {
+    position: relative;
+    display: block;
+    width: calc(103% + 1.3px);
+    height: 275px;
+}
+
+.custom-shape-divider-bottom-1738773578 .shape-fill {
+    fill: #FFFFFF;
+}

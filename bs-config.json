@@ -1,0 +1,6 @@
+{
+    "server": {
+      "baseDir": "./dist/ige511-web/browser"
+    },
+    "files": ["./dist/ige511-web/browser/**/*.{html,htm,css,js}"]
+  }

@@ -1,0 +1,39 @@
+body {
+    /* Gradient */
+    background: rgb(2,0,36);
+    background: linear-gradient(210deg, 
+        rgba(2,0,36,1) 0%, 
+        rgba(9,9,121,1) 35%, 
+        rgba(0,212,255,1) 100%
+    );
+
+    /* Empêcher la répétition */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    /* Couvrir toute la fenêtre */
+    min-height: 100vh;
+    
+    /* Autres styles */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Couleur de fond du footer */
+    color: white;
+    padding: 20px 0;
+}
+
